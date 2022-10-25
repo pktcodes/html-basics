@@ -9,28 +9,30 @@
 
   <body>
     <!-- 
-      Table Element
-      tr - row 
-      td -column
-      th - table heading, text with some styling -->
+      form - html element
+      action - data needs to be collected at server after submitting
+      method - what type of submit
+    -->
 
-    <table>
-      <tr>
-        <th>Number</th>
-        <th>Name</th>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td>Praveen</td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>John</td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td>Peter</td>
-      </tr>
-    </table>
+    <form action="" method="">
+      <!-- Text Input -->
+      <label for="firstname">First Name</label>
+      <input type="text" name="firstname" id="firstname" />
+      <br />
+      <br />
+      <!-- Password Input -->
+      <input type="password" name="password" placeholder="Enter password" />
+      <br />
+      <br />
+
+      <!-- Email Input -->
+      <input type="email" name="email" id="" value="praveen@gmail.com" />
+
+      <!-- Submit Input -->
+      <!-- <input type="submit" value="Submit here" /> -->
+
+      <!-- Button Submit -->
+      <button type="submit">Submit here</button>
+    </form>
   </body>
 </html>
